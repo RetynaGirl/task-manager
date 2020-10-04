@@ -1,0 +1,13 @@
+{
+  "name": "task_manager",
+  "private": true,
+  "dependencies": {},
+  "languages": [
+    {
+      "id": "erb",
+      "extensions": [
+        ".erb"
+      ]
+    }
+  ]
+}

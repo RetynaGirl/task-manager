@@ -1,0 +1,6 @@
+<h1>All Tasks</h1>
+
+<% @tasks.each do |task| %>
+  <a href="/tasks/<%= task.id %>" style="font-size: 25px;"><%= task.title %></a>
+  <p><%= task.description %></p>
+<% end %>
